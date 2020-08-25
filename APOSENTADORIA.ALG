@@ -1,0 +1,30 @@
+Algoritmo "APOSENTADORIA"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Aluno: Rone Soares Pereira
+
+Var
+   NOME: CARACTER
+   IDADE: INTEIRO
+   RESULTADO: INTEIRO
+   FEMNINO, MASCULINO: CARACTER
+Inicio
+   ESCREVA ("DIGITE SEU NOME: ")
+   LEIA(NOME)
+   ESCREVAL()
+   ESCREVA ("DIGITE SUA IDADE: ")
+   LEIA(IDADE)
+   ESCREVAL()
+   ESCREVAL()
+   SE (IDADE>=18)ENTAO
+      ESCREVA ("VOCÊ É MAIOR DE IDADE!")
+      SE (IDADE<18)ENTAO
+         ESCREVA ("VOCÊ AINDA É MENOR DE IDADE!")
+      FIMSE
+   FIMSE
+   ESCREVAL()
+   ESCREVAL()
+   RESULTADO <- (65-IDADE)
+   ESCREVA ("FALTAM APENAS", RESULTADO, " ANOS PARA VOCÊ SE APOSENTAR!")
+
+
+Fimalgoritmo

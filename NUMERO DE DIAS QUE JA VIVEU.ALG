@@ -1,0 +1,20 @@
+Algoritmo "NUMERO DE DIAS QUE JA VIVEU"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Aluno: Rone Soares Pereira
+
+Var
+NOME: CARACTER
+IDADE: INTEIRO
+RESULTADO: INTEIRO
+
+
+Inicio
+ESCREVA ("DIGITE SEU NOME: ")
+LEIA (NOME)
+ESCREVAL()
+ESCREVA ("DIGITE SUA IDADE: ")
+LEIA (IDADE)
+ESCREVAL ()
+         RESULTADO <- (IDADE*365)
+   ESCREVA ("VOCÊ JÁ VIVEU", RESULTADO, " DIAS")
+   FIMALGORITMO
